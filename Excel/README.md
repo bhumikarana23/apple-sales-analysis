@@ -6,4 +6,4 @@ This folder contains the Excel workbook used in the Apple Sales Dashboard projec
   - Data cleaning and preprocessing
   - Pivot Tables
   - Pivot Charts
-  -
+  
