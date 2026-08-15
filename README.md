@@ -102,7 +102,7 @@ Apple-Global-Sales-Analytics
 
 ## Dashboard Preview
 
-![apple sales analysis](preview.png)
+![apple sales analysis](PowerBI/preview.png)
 ---
 
 ## Skills Demonstrated
