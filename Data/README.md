@@ -1,17 +1,11 @@
 # DATA
 This folder contains the datasets used in the **Apple Sales Dashboard** project.
-The data is organized into two versions to clearly demonstrate the data preparation workflow followed during the project.
 
 ## FILES
 ### RAW_data_apple_global_sales.xlsx
 - Original dataset before any modifications.
 - Contains the source data used for the analysis.
 - Preserved to maintain data integrity and reproducibility.
-
-### UPDATED_apple_global_sales.xlsx
-- Cleaned and preprocessed version of the dataset.
-- Includes corrected data types, removed duplicates, handled missing values, standardized formats, and other data transformations.
-- Used for SQL analysis, Excel pivot tables, and Power BI dashboard development.
 
 ## PURPOSE
 The datasets in this folder serve as the foundation for the complete analytics workflow:
