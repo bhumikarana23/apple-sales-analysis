@@ -1,4 +1,4 @@
-# apple-sales-dashboard
+# apple-sales-analysis
 Interactive sales analytics project exploring Apple global sales trends using Excel, SQL, Power BI, and Python.
 # Apple Global Sales Analytics Dashboard
 
