@@ -102,8 +102,7 @@ Apple-Global-Sales-Analytics
 
 ## Dashboard Preview
 
-*(Add a screenshot of your Power BI dashboard here after completing the project.)*
-
+![apple sales analysis](preview.png)
 ---
 
 ## Skills Demonstrated
