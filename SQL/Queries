@@ -1,9 +1,9 @@
 
--- =====================================================
+*-- =====================================================
 -- 01. TOTAL REVENUE
 -- Business Question:
 -- What is the total revenue generated from all sales?
--- =====================================================
+-- =====================================================*
 
 SELECT 
     SUM(Revenue) AS Total_Revenue
@@ -11,7 +11,6 @@ FROM apple_sales;
 
 -- =====================================================
 -- 02. TOTAL ORDERS
--- Business Question:
 -- How many unique orders were placed?
 -- =====================================================
 
@@ -20,7 +19,6 @@ FROM apple_sales;
 
 -- =====================================================
 -- 03. TOTAL UNITS SOLD
--- Business Question:
 -- How many total units were sold?
 -- =====================================================
 
@@ -29,7 +27,6 @@ FROM apple_sales;
 
 -- =====================================================
 -- 04. AVERAGE ORDER VALUE
--- Business Question:
 -- What is the average revenue generated per order?
 -- =====================================================
 
@@ -39,7 +36,6 @@ FROM apple_sales;
 
 -- =====================================================
 -- 05. REVENUE BY YEAR
--- Business Question:
 -- How has total revenue changed across different years?
 -- =====================================================
 
@@ -52,7 +48,6 @@ ORDER BY Year;
 
 -- =====================================================
 -- 06. REVENUE BY QUARTER
--- Business Question:
 -- How does revenue vary across different quarters of each year?
 -- =====================================================
 
@@ -66,7 +61,6 @@ ORDER BY Year, Quarter;
 
 -- =====================================================
 -- 07. REVENUE BY COUNTRY
--- Business Question:
 -- Which countries generate the highest total revenue?
 -- =====================================================
 
@@ -79,7 +73,6 @@ ORDER BY Total_Revenue DESC;
 
 -- =====================================================
 -- 08. TOP 10 COUNTRIES BY REVENUE
--- Business Question:
 -- Which are the top 10 countries based on total revenue?
 -- =====================================================
 
@@ -93,7 +86,6 @@ LIMIT 10;
 
 -- =====================================================
 -- 09. REVENUE BY PRODUCT CATEGORY
--- Business Question:
 -- Which product categories generate the highest total revenue?
 -- =====================================================
 
@@ -106,7 +98,6 @@ ORDER BY Total_Revenue DESC;
 
 -- =====================================================
 -- 10. UNTIS SOLS BY PRODUCT CATEGORY
--- Business Question:
 -- Which product categories have the highest number of units sold?
 -- =====================================================
 
@@ -119,7 +110,6 @@ ORDER BY Units_Sold DESC;
 
 -- =====================================================
 -- 11. REVENUE BY SALES CHANNEL
--- Business Question:
 -- Which sales channels generate the highest revenue?
 -- =====================================================
 
@@ -132,7 +122,6 @@ ORDER BY Total_Revenue DESC;
 
 -- =====================================================
 -- 12. REVENUE BY CUSTOMER SEGMENT
--- Business Question:
 -- Which customer segments contribute the most revenue?
 -- =====================================================
 
@@ -145,7 +134,6 @@ ORDER BY Total_Revenue DESC;
 
 -- =====================================================
 -- 13. REVENUE BY PAYMENT METHOD
--- Business Question:
 -- Which payment methods are associated with the highest revenue?
 -- =====================================================
 
@@ -158,7 +146,6 @@ ORDER BY Total_Revenue DESC;
 
 -- =====================================================
 -- 14. REVENUE BY CUSTOMER AGE GROUP
--- Business Question:
 -- Which customer age groups generate the highest revenue?
 -- =====================================================
 
@@ -171,7 +158,6 @@ ORDER BY Total_Revenue DESC;
 
 -- =====================================================
 -- 15. RETURN STATUS ANALYSIS
--- Business Question:
 -- How do orders and revenue vary by return status?
 -- =====================================================
 
@@ -184,7 +170,6 @@ GROUP BY Return_Status;
 
 -- =====================================================
 -- 16. REVENUE BY COUNTRY AND CATEGORY
--- Business Question:
 -- Which product categories generate the most revenue within each country?
 -- =====================================================
 
@@ -198,7 +183,6 @@ ORDER BY Country, Total_Revenue DESC;
 
 -- =====================================================
 -- 17. MONTHLY REVENUE
--- Business Question:
 -- How does monthly revenue change over time?
 -- =====================================================
 
@@ -212,7 +196,6 @@ ORDER BY Year, Month;
 
 -- =====================================================
 -- 18. HIGHEST REVENUE-GENERATING CATEGORY IN EACH YEAR
--- Business Question:
 -- Which product category generates the highest revenue in each year?
 -- =====================================================
 
@@ -226,7 +209,6 @@ ORDER BY Year, Total_Revenue DESC;
 
 -- =====================================================
 -- 19. ORDERS BY COUNTRY
--- Business Question:
 -- Which countries have the highest number of orders?
 -- =====================================================
 
@@ -239,7 +221,6 @@ ORDER BY Total_Orders DESC;
 
 -- =====================================================
 -- 20. AVERAGE ORDER VALUE BY COUNTRY
--- Business Question:
 -- Which countries have the highest average order value?
 -- =====================================================
 
@@ -249,4 +230,3 @@ SELECT
 FROM apple_sales
 GROUP BY Country
 ORDER BY Average_Order_Value DESC;
-
